@@ -1,7 +1,7 @@
 export const MultipleCustomHooks = () => {
-  return (
-    <>
-        <h1>Breaking Bad Quotes</h1>
-    </>
-  )
-}
+	return (
+		<>
+			<h1>Breaking Bad Quotes</h1>
+		</>
+	);
+};
