@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // eslint-disable-next-line react/display-name
 export const Hijo = React.memo(({ numero, incrementar }) => {
@@ -14,8 +13,3 @@ export const Hijo = React.memo(({ numero, incrementar }) => {
 		</button>
 	);
 });
-
-Hijo.propTypes = {
-	numero: PropTypes.number.isRequired,
-	incrementar: PropTypes.number.isRequired
-};
